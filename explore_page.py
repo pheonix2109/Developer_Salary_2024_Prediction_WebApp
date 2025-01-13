@@ -62,7 +62,7 @@ df = load_data()
 def show_explore_page():
 
     st.title("Explore Developer Salary")
-    st.write('''### Stack Overflow Developer Survey 2020''')
+    st.write('''### Stack Overflow Developer Survey 2024''')
 
     country_data = df["Country"].value_counts()
 
